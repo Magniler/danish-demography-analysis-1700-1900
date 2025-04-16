@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "link-lives"
+version = "0.1.0"
+description = "Datahandling for Magnus Lindholms Masters Thesis"
+authors = ["Magnus Lindholm Nielsen <201907768@post.au.dk>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+plotly = "^5.24.0"
+nbformat = "^5.10.4"
+kaleido = "0.2.1"
+numpy = "^2.1.1"
+scipy = "^1.14.1"
+jinja2 = "^3.1.4"
+statsmodels = "^0.14.4"
+tabulate = "^0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.2"
+nbqa = "^1.9.0"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
